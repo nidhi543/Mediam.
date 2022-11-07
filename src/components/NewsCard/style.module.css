@@ -1,0 +1,52 @@
+.media{
+ height: 250px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 10px solid white;
+    height: 100%;
+    margin: 10px;
+  }
+ .activeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 10px solid #3b82f6;
+    margin: 10px;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .title{
+    padding: 0 16px;
+  }
+  .cardActions{
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .cardActions .button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+  }
+  .cardActions .button:hover{
+    border: 1px solid #3b82f6;
+    background-color: #FFFFFF;
+    color: black;
+  }
+ 
+
+
